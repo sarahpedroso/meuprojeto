@@ -25,3 +25,11 @@
 #container a {
   text-decoration: none;
 }
+
+.custom-button {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: auto; /* Define a altura como 100% da altura da viewport */
+  width: 100dvh;
+}
